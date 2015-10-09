@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="4DV-0l-5Gm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-120.png" translatesAutoresizingMaskIntoConstraints="NO" id="qqf-zo-IHx">
+                    <rect key="frame" x="8" y="123" width="120" height="120"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="琳之微漫是一款为用户提供幽默搞笑漫画阅读的APP，致力于为用户在平时提供一种新的消闲方式，轻松幽默的故事为用户释放压力，短篇的幽默漫画适合用户在等车，排队的时候消磨时间，为用户的枯燥生活添加幽默的色彩。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyB-hr-Znj">
+                    <rect key="frame" x="24" y="328" width="326" height="84"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="简介:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1o-zG-rvS">
+                    <rect key="frame" x="24" y="307" width="37" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="琳之微漫" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCI-X4-eyQ">
+                    <rect key="frame" x="136" y="173" width="155" height="20"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="GyB-hr-Znj" firstAttribute="top" secondItem="qqf-zo-IHx" secondAttribute="bottom" constant="85" id="42V-Oc-b1q"/>
+                <constraint firstItem="z1o-zG-rvS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="630-fR-apr"/>
+                <constraint firstAttribute="trailing" secondItem="GyB-hr-Znj" secondAttribute="trailing" constant="25" id="65C-o3-qiu"/>
+                <constraint firstItem="qqf-zo-IHx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="CHy-XC-Jst"/>
+                <constraint firstItem="UCI-X4-eyQ" firstAttribute="leading" secondItem="qqf-zo-IHx" secondAttribute="trailing" constant="8" id="ZkK-hw-CK6"/>
+                <constraint firstItem="UCI-X4-eyQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="173" id="jhH-c7-2xX"/>
+                <constraint firstItem="GyB-hr-Znj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="24" id="keQ-Mt-u3n"/>
+                <constraint firstItem="qqf-zo-IHx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="123" id="sJG-Oe-zzk"/>
+                <constraint firstItem="GyB-hr-Znj" firstAttribute="top" secondItem="z1o-zG-rvS" secondAttribute="bottom" constant="1" id="tbf-1d-rSw"/>
+                <constraint firstAttribute="trailing" secondItem="UCI-X4-eyQ" secondAttribute="trailing" constant="84" id="zJf-0D-oXO"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="343.5" y="389.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-120.png" width="120" height="120"/>
+    </resources>
+</document>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Entity" representedClassName="Entity" isAbstract="YES" syncable="YES">
+        <attribute name="author_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_thumb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="comic_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="create_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="frequency_fenxiang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="frequency_pinglun" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="frequency_zan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isCollected" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Entity" positionX="-54" positionY="-9" width="128" height="180"/>
+    </elements>
+</model>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Jlg-5y-biw">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Default-667h.png" translatesAutoresizingMaskIntoConstraints="NO" id="d2N-Ug-2NZ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="d2N-Ug-2NZ" firstAttribute="leading" secondItem="Jlg-5y-biw" secondAttribute="leading" id="Ezb-Xh-bne"/>
+                <constraint firstAttribute="trailing" secondItem="d2N-Ug-2NZ" secondAttribute="trailing" id="Ttd-A6-OBn"/>
+                <constraint firstAttribute="bottom" secondItem="d2N-Ug-2NZ" secondAttribute="bottom" id="cxM-U6-kd2"/>
+                <constraint firstItem="d2N-Ug-2NZ" firstAttribute="top" secondItem="Jlg-5y-biw" secondAttribute="top" id="iuu-er-pnF"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="535" y="489"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Default-667h.png" width="375" height="667"/>
+    </resources>
+</document>

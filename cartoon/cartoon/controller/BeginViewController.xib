@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BeginViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIT-iD-6bT">
+                    <rect key="frame" x="-1" y="293" width="376" height="374"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="Wry-fv-hR3"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="begin.png" translatesAutoresizingMaskIntoConstraints="NO" id="NHV-z7-rrG">
+                    <rect key="frame" x="-1" y="24" width="375" height="667"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AIT-iD-6bT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-1" id="2jX-0H-1mW"/>
+                <constraint firstItem="AIT-iD-6bT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="293" id="78s-XL-4Ju"/>
+                <constraint firstAttribute="trailing" secondItem="NHV-z7-rrG" secondAttribute="trailing" constant="1" id="LfU-4Y-fNA"/>
+                <constraint firstAttribute="bottom" secondItem="AIT-iD-6bT" secondAttribute="bottom" id="Rzg-1b-lIl"/>
+                <constraint firstItem="NHV-z7-rrG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-1" id="VUS-BK-p9N"/>
+                <constraint firstItem="NHV-z7-rrG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="24" id="hdJ-UZ-Zdj"/>
+                <constraint firstAttribute="trailing" secondItem="AIT-iD-6bT" secondAttribute="trailing" id="mSs-Un-oPY"/>
+                <constraint firstAttribute="bottom" secondItem="NHV-z7-rrG" secondAttribute="bottom" constant="-24" id="ysM-UF-7U0"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="411.5" y="373.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="begin.png" width="750" height="1334"/>
+    </resources>
+</document>
